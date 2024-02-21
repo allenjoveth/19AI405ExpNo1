@@ -102,3 +102,5 @@ agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
 ```
+## Output:
+![output](https://github.com/allenjoveth/19AI405ExpNo1/assets/139422287/5e37c083-cf48-4172-9608-514b303769d5)
