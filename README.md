@@ -45,9 +45,9 @@ do_nothing: Represents a passive action where the agent remains idle. </p>
 
 
 <h3>CODE:</h3>
-
+```
 class VacuumCleanerAgent:
-    def _init_(self):
+    def __init__(self):
         # Initialize the agent's state (location and dirt status)
         self.location = "A"  # Initial location (can be "A" or "B")
         self.dirt_status = {"A": False, "B": False}  # Initial dirt status (False means no dirt)
@@ -101,3 +101,4 @@ agent.print_status()
 
 agent.perform_action("nothing")
 agent.print_status()
+```
